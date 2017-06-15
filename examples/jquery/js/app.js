@@ -1,4 +1,12 @@
-/*global jQuery, Handlebars, Router */
+var Handlebars = require('handlebars/dist/handlebars.min'),
+		todoBase = require('todomvc-common/base'),
+		jQuery = require('jquery'),
+		Router = require('director/build/director').Router;
+
+require('todomvc-common/base.css');
+require('todomvc-app-css/index.css');
+require('../css/app.css');
+
 jQuery(function ($) {
 	'use strict';
 
